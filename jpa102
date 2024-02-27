@@ -1,0 +1,10 @@
+import java.util.Scanner;
+public class hi {
+    public static void main(String[] args) {
+        Scanner scn =new Scanner(System.in);
+        System.out.print("Please input:");
+        int a=scn.nextInt();
+        System.out.printf("%.1f kg = %.4f ponds",(float)a,(float)a*2.20462);
+    }
+    
+}
